@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/Discriminatie-nl-LVtD/email-templates#readme",
   "devDependencies": {
-    "nunjucks-cli": "^1.0.0"
+    "@rse/nunjucks-cli": "^2.2.3"
   }
 }
