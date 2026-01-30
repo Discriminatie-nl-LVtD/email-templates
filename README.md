@@ -1,5 +1,9 @@
 Deze repository is bedoeld om e-mailtemplates in Betty Blocks te realiseren.
 
+Voorbeeld:
+KTO -> https://discriminatie-nl-lvtd.github.io/email-templates/dist/kto.html
+Wachtwoord-vergeten -> https://discriminatie-nl-lvtd.github.io/email-templates/dist/wachtwoord-vergeten.html
+
 | Template | Onderwerp | Template variabelen |
 | --- | --- | --- |
 | **kto.html** | Klanten tevredenheidsonderzoek | <table><tr><th>Variabel</th><th>Verplicht</th><th>Opmerking</th></tr><tr><td>url</td><td>Ja</td><td>Url van de vragenlijst</td></table> |
