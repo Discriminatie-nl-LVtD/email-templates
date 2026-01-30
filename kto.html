@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="nl">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width,initial-scale=1" />
+      <meta name="color-scheme" content="light only" />
+      <title>KTO - Klanttevredenheidsonderzoek</title>
+      <style>
+         :root {
+         --bg: #FFF;
+         /* --bg: #F3EEE3; */
+         --surface: #D3B492;
+         /* --surface: #FFFFFF; */
+         --primary: #C49B6E;
+         /* --primary: #3A475F; */
+         --accent: #F3EEE3;
+         /* --accent: #D3B492; */
+         --text: #242424;
+         /* --text: #242424; */
+         --muted: #3A475F;
+         }
+         html,
+         body {
+         margin: 0 !important;
+         padding: 0 !important;
+         height: 100% !important;
+         width: 100% !important;
+         }
+         * {
+         -ms-text-size-adjust: 100%;
+         -webkit-text-size-adjust: 100%;
+         }
+         body {
+         font-family: Arial, Helvetica, sans-serif;
+         color: #242424;
+         }
+         table,
+         td {
+         border-collapse: collapse !important;
+         mso-table-lspace: 0pt;
+         mso-table-rspace: 0pt;
+         }
+         img {
+         border: 0;
+         outline: none;
+         text-decoration: none;
+         -ms-interpolation-mode: bicubic;
+         display: block;
+         }
+         a {
+         text-decoration: none;
+         color: inherit;
+         }
+         /* layout */
+         .outer {
+         padding: 24px 12px;
+         }
+         .container {
+         width: 600px;
+         max-width: 600px;
+         }
+         .logo-row {
+         padding: 10px 24px;
+         }
+         .card {
+         background: #D3B492;
+         border-radius: 16px;
+         overflow: hidden;
+         border: 1px solid #F3EEE3;
+         border-collapse: separate !important;
+         border-spacing: 0;
+         }
+         .card-bar {
+         background: #C49B6E;
+         height: 6px;
+         line-height: 6px;
+         font-size: 6px;
+         }
+         .card-body {
+         padding: 24px;
+         }
+         .notice {
+         background: #FFF;
+         border: 1px solid #F3EEE3;
+         padding: 14px 16px;
+         }
+         .footer {
+         padding: 16px 24px 0 24px;
+         font-size: 12px;
+         line-height: 18px;
+         color: #3A475F;
+         text-align: center;
+         }
+         /* typography */
+         .h1 {
+         font-size: 26px;
+         line-height: 32px;
+         font-weight: 700;
+         color: #242424;
+         margin: 0 0 12px 0;
+         }
+         .body-lg {
+         font-size: 16px;
+         line-height: 24px;
+         color: #3A475F;
+         margin: 0 0 16px 0;
+         }
+         .body-md {
+         font-size: 14px;
+         line-height: 20px;
+         color: #242424;
+         margin: 0;
+         }
+         .body-sm {
+         font-size: 12px;
+         line-height: 18px;
+         color: #3A475F;
+         margin: 0;
+         }
+         .strong {
+         color: #242424;
+         font-weight: 700;
+         }
+         /* elements */
+         .btn {
+         background: #C49B6E;
+         color: #FFFFFF;
+         display: inline-block;
+         padding: 12px 18px;
+         border-radius: 12px;
+         font-size: 16px;
+         line-height: 20px;
+         font-weight: 700;
+         }
+         .btn.block {
+         display: block;
+         width: 100%;
+         text-align: center;
+         }
+         .divider {
+         border: none;
+         border-top: 1px solid #F3EEE3;
+         margin: 22px 0;
+         }
+         .logo-img {
+         width: 180px;
+         height: auto;
+         }
+         .logo-mark {
+         color: #C49B6E;
+         }
+         .preheader {
+         display: none !important;
+         font-size: 1px;
+         line-height: 1px;
+         max-height: 0;
+         max-width: 0;
+         opacity: 0;
+         overflow: hidden;
+         mso-hide: all;
+         }
+         .btn-row {
+         margin: 20px 0 10px 0;
+         }
+         .lead-22 {
+         line-height: 22px;
+         }
+         .link-underline {
+         text-decoration: underline;
+         color: #3A475F;
+         }
+         /* utilities */
+         .px {
+         padding-left: 24px;
+         padding-right: 24px;
+         }
+         .py {
+         padding-top: 24px;
+         padding-bottom: 24px;
+         }
+         @media screen and (max-width: 600px) {
+         .container {
+         width: 100% !important;
+         }
+         .px {
+         padding-left: 16px !important;
+         padding-right: 16px !important;
+         }
+         .py {
+         padding-top: 16px !important;
+         padding-bottom: 16px !important;
+         }
+         .h1 {
+         font-size: 22px !important;
+         line-height: 28px !important;
+         }
+         .btn {
+         display: block !important;
+         width: 100% !important;
+         text-align: center !important;
+         }
+         }
+      </style>
+   </head>
+   <body class="bg-body">
+      <div class="preheader">
+         Help ons met een korte vragenlijst over de ondersteuning bij jouw melding van discriminatie.
+      </div>
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="bg-body">
+         <tr>
+            <td align="center" class="outer">
+               <table role="presentation" width="600" class="container" cellpadding="0" cellspacing="0">
+                  <tr>
+                     <td class="logo-row">
+                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                           <tr>
+                              <td align="left" valign="middle">
+                                 <a href="https://discriminatie.nl" target="_blank">
+                                 <img src="data:image/png;base64,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"
+                                    width="180" height="48" alt="Logo Discriminatie.nl" class="logo-img" />
+                                 </a>
+                              </td>
+                              <td align="right" valign="middle" class="body-sm">
+                                 KTO - Klanttevredenheid
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="px">
+                        <table role="presentation" width="100%" cellpadding="0" cellspacing="0" class="card">
+                           <tr>
+                              <td class="card-bar">&nbsp;</td>
+                           </tr>
+                           <tr>
+                              <td class="card-body px py">
+                                 <div class="h1">
+                                    Hoe tevreden ben je over onze ondersteuning?
+                                 </div>
+                                 <div class="body-lg">
+                                    Je hebt recent contact gehad met ons naar aanleiding van jouw melding van discriminatie. Met een korte vragenlijst (± 2 minuten) help je ons om onze dienstverlening te verbeteren.
+                                 </div>
+                                 <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                                    <tr>
+                                       <td class="body-md notice">
+                                          <span class="strong">Privacy:</span> we gebruiken je antwoorden alleen om onze service te verbeteren. Deelname is vrijwillig.
+                                       </td>
+                                    </tr>
+                                 </table>
+                                 <table role="presentation" cellpadding="0" cellspacing="0" class="btn-row">
+                                    <tr>
+                                       <td align="left">
+                                          <a class="btn" href="https://google.com" target="_blank">
+                                          Start de vragenlijst
+                                          </a>
+                                       </td>
+                                    </tr>
+                                 </table>
+                                 <div class="body-sm">
+                                    Werkt de knop niet? Kopieer deze link in je browser:
+                                    <a href="https://google.com" target="_blank" class="link-underline">https://google.com</a>
+                                 </div>
+                                 <hr class="divider" />
+                                 <div class="body-md lead-22">
+                                    Alvast bedankt voor je tijd,<br/>
+                                    <span class="strong">Discriminatie.nl</span>
+                                 </div>
+                              </td>
+                           </tr>
+                        </table>
+                     </td>
+                  </tr>
+                  <tr>
+                     <td class="px footer">
+                        <div class="px">
+                           Discriminatie.nl · © 2026<br/> Je ontvangt deze e-mail omdat je contact hebt gehad over een melding van discriminatie.
+                           <div style="margin-top:10px;">
+                              <a href="https://discriminatie.nl/privacyverklaring/" target="_blank" class="link-underline">Privacyverklaring</a> (<a href="https://discriminatie.nl/privacy-statement/" target="_blank" class="link-underline">Privacy statement</a>) ·
+                              <a href="https://www.instagram.com/discriminatie_nl/" target="_blank" class="link-underline">Instagram</a> ·
+                              <a href="https://www.facebook.com/discriminatie.nl/" target="_blank" class="link-underline">Facebook</a> ·
+                              <a href="https://www.linkedin.com/company/discriminatie-nl/posts/?feedView=all" target="_blank" class="link-underline">LinkedIn</a> ·
+                              <a href="https://x.com/discriminatie" target="_blank" class="link-underline">X (Twitter)</a>
+                           </div>
+                        </div>
+                     </td>
+                  </tr>
+               </table>
+            </td>
+         </tr>
+      </table>
+   </body>
+</html>
