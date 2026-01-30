@@ -7,19 +7,19 @@
     Hoe tevreden ben je over onze ondersteuning?
   </div>
   <div class="body-lg">
-    Je hebt recent contact gehad met ons naar aanleiding van jouw melding van discriminatie. Met een korte vragenlijst (± 2 minuten) help je ons om onze dienstverlening te verbeteren.
+    U heeft recent contact gehad met ons naar aanleiding van jouw melding van discriminatie. Met een korte vragenlijst (± 2 minuten) helpt u ons om onze dienstverlening te verbeteren.
   </div>
   <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
     <tr>
       <td class="body-md notice">
-        <span class="strong">Privacy:</span> we gebruiken je antwoorden alleen om onze service te verbeteren. Deelname is vrijwillig.
+        <span class="strong">Privacy:</span> we gebruiken uw antwoorden alleen om onze service te verbeteren. Deelname is vrijwillig.
       </td>
     </tr>
   </table>
   <table role="presentation" cellpadding="0" cellspacing="0" class="btn-row">
     <tr>
       <td align="left">
-        <a class="btn" href="https://google.com" target="_blank">
+        <a class="btn" href="{% raw %}{{ url }}{% endraw %}" target="_blank">
           Start de vragenlijst
         </a>
       </td>
@@ -27,11 +27,11 @@
   </table>
   <div class="body-sm">
     Werkt de knop niet? Kopieer deze link in je browser:
-    <a href="https://google.com" target="_blank" class="link-underline">https://google.com</a>
+    <a href="{% raw %}{{ url }}{% endraw %}" target="_blank" class="link-underline">{% raw %}{{ url }}{% endraw %}</a>
   </div>
   <hr class="divider" />
   <div class="body-md lead-22">
-    Alvast bedankt voor je tijd,<br/>
+    Alvast bedankt voor uw tijd,<br/>
     <span class="strong">Discriminatie.nl</span>
   </div>
 {% endblock %}
