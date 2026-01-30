@@ -1,5 +1,6 @@
 Deze repository is bedoeld om e-mailtemplates in Betty Blocks te realiseren.
 
-| Template | Toelichting | Template variabelen |
+| Template | Onderwerp | Template variabelen |
 | --- | --- | --- |
-| **kto.html** | Klanten tevredenheidsonderzoek | <table><tr><th>Variabele</th><th>Verplicht</th><th>Opmerking</th></tr><tr><td>—</td><td>n.v.t.</td><td>Dit template heeft geen verplichte variabelen.</td></tr></table> |
+| **kto.html** | Klanten tevredenheidsonderzoek | <table><tr><th>Variabele</th><th>Verplicht</th><th>Opmerking</th></tr><tr><td>admin</td><td>Ja</td><td>Beheerder van adv-net</td></table> |
+| **wachtwoord-vergeten.html** | Wachtwoord herstellen ADV-net | <table><tr><th>Variabele</th><th>Verplicht</th><th>Opmerking</th></tr><tr><td>admin</td><td>Ja</td><td>Beheerder van adv-net</td></tr><tr><td>frontend_url</td><td>Ja</td><td>Voor de verschillende omgevingen</td></tr><tr><td>uuid</td><td>Ja</td><td>Unieke waarde om te weten welk account</td></tr></tr><tr><td>code</td><td>Ja</td><td>Unieke code om te verifieren of de juiste persoon het reset</td></tr></table> |
